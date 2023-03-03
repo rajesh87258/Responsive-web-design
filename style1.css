@@ -1,0 +1,43 @@
+.divp{
+    /* height: auto;
+    width: auto; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#div1{
+    width: 32%;
+    height: 300px;
+    margin: 0.2%;
+    background-color: red;
+}
+#div2{
+    width: 32%;
+    height: 300px;
+    margin: 0.2%;
+    background-color: red;
+}
+#div3{
+    width: 32%;
+    height: 300px;
+    margin: 0.2%;
+    background-color: red;
+}
+@media screen and (max-width:600px){
+    #div1{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:600px){
+    #div2{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:600px){
+    #div3{
+        width: 100%;
+    }
+    
+}
